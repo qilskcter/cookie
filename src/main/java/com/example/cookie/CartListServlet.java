@@ -56,7 +56,7 @@ public class CartListServlet extends HttpServlet {
             session.setAttribute("cart", cart);
             url = "/cart.jsp";
         } else if (action.equals("checkout")) {
-            url = "/checkout.jsp";
+            url = "/checkout.html";
         }
 
         getServletContext()
